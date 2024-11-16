@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
   <title>Tan Yan Lin</title>
-  <meta name="description" content="Tan Yan Lin" />
+  <meta name="description" content="Tan Yan Lin - Developer and Data Enthusiast" />
 </head>
 
 <body>
@@ -21,12 +21,10 @@
     </div>
     <nav class="main-header__navigation">
       <ul class="main-header__navigation-links">
-        <li class="main-header__navigation-link"><a href="./index.html"> Home </a></li>
-        <li class="main-header__navigation-link"><a href="./index.html#about"> About </a></li>
-        <li class="main-header__navigation-link">
-          <a href="./index.html#projects"> Projects </a>
-        </li>
-        <li class="main-header__navigation-link"><a href="./index.html#contact" href=""> Contact </a></li>
+        <li class="main-header__navigation-link"><a href="#home-hero">Home</a></li>
+        <li class="main-header__navigation-link"><a href="#about">About</a></li>
+        <li class="main-header__navigation-link"><a href="#projects">Projects</a></li>
+        <li class="main-header__navigation-link"><a href="#contact">Contact</a></li>
       </ul>
     </nav>
     <div class="main-header__sm-scr-nav-btn">
@@ -34,254 +32,119 @@
       <div class="main-header__sm-scr-nav-btn-line"></div>
     </div>
     <div class="main-header__sm-menu">
-      <div class="main-header__sm-menu-close">
-
-      </div>
       <ul class="main-header__sm-menu-links">
-        <li>
-          <a class="main-header__sm-menu-link main-header__sm-menu-link--1" name="home-hero">Home</a>
-        </li>
-
-        <li>
-          <a class="main-header__sm-menu-link main-header__sm-menu-link--2" name="about">About</a>
-        </li>
-        <li>
-          <a class="main-header__sm-menu-link main-header__sm-menu-link--3" name="projects">Projects</a>
-        </li>
-        <li>
-          <a class="main-header__sm-menu-link main-header__sm-menu-link--4" name="contact">Contact</a>
-        </li>
+        <li><a href="#home-hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
-    <!-- <button class="btn btn-theme btn-sm">Download CV</button> -->
   </header>
 
   <section id="home-hero" class="home-hero">
     <div class="home-hero__content">
-      <div class="home-hero__info">
-        <h1 class="heading-primary home-hero__heading-primary">
-          <span class="heading-primary__sm"> Hello 👋</span>
-          <span class="heading-primary__main">
-            I'm Tan Yan Lin! A Developer and Data Enthusiast.
-          </span>
-        </h1>
-        <button class="btn btn-theme home-hero__btn-theme" onclick="location.href='./index.html#projects';">Projects</button>
-        <button class="btn btn-inv home-hero__btn-theme" onclick="location.href='./index.html#contact';">Contact</button>
-      </div>
+      <h1 class="heading-primary">
+        <span class="heading-primary__sm">Hello 👋</span>
+        <span class="heading-primary__main">I'm Tan Yan Lin! A Developer and Data Enthusiast.</span>
+      </h1>
+      <button class="btn btn-theme" onclick="location.href='#projects';">Projects</button>
+      <button class="btn btn-inv" onclick="location.href='#contact';">Contact</button>
     </div>
   </section>
+
   <section id="about" class="about main-section">
     <div class="main-container">
-      <h2 class="heading-secondary projects__heading-secondary">
-        <span class="heading-secondary__sm"> About 🦄</span>
-        <span class="heading-secondary__main">
-          Here you will find more information about me, what I do, and list of my current skills in programming.
+      <h2 class="heading-secondary">
+        <span class="heading-secondary__sm">About 🦄</span>
+        <span class="heading-secondary__main">Here you will find more information about me, what I do, and my skills.</span>
       </h2>
-      <div class="main-section__content">
+      <div class="about__content">
         <div class="about__info">
-          <div class="about__main-info">
-            <h3 class="heading-quaternary about__heading-quaternary">
-              My Story
-            </h3>
-            <p class="text-primary about__text-primary">
-              <span>
-                Hello! I'm a recent graduate from Multimedia University, 
-                specializing in Computer Science. With a focus on Artificial Intelligence, 
-                I have gained comprehensive knowledge in web development, machine learning, and data analysis. 
-                My academic foundation, combined with hands-on project experience, has equipped me to solve 
-                complex challenges and build impactful solutions in the IT field.
-              </span>
-              <span>
-                I have developed a personal expenses tracker using Node.js, 
-                React.js, and Express, and created an online grocery website with PHP, 
-                HTML, CSS, and JavaScript. Additionally, I have worked on a customer 
-                churn prediction model, applying machine learning techniques to analyze
-                data and drive insights. I am passionate about leveraging my technical 
-                skills to contribute to innovative projects across various IT domains.
-              </span>
-
-            </p>
-            <button class="btn btn-theme about__btn-theme">Projects</button>
-          </div>
-          <div class="about__skill-info">
-            <h3 class="heading-quaternary about__heading-quaternary">
-              My Skills
-            </h3>
-           <ul class="about__skills">
-              <li class="about__skill">Web Development</li>
-              <li class="about__skill">JavaScript</li>
-              <li class="about__skill">Node.js</li>
-              <li class="about__skill">React.js</li>
-              <li class="about__skill">Express</li>
-              <li class="about__skill">PHP</li>
-              <li class="about__skill">SQL</li>
-              <li class="about__skill">HTML</li>
-              <li class="about__skill">CSS</li>
-              <li class="about__skill">Python</li>
-              <li class="about__skill">Machine Learning</li>
-              <li class="about__skill">Data Analysis</li>
-              <li class="about__skill">Machine Learning Model</li>
-            </ul>
-          </div>
+          <h3>My Story</h3>
+          <p>
+            Hello! I'm a recent graduate from Multimedia University, specializing in Computer Science with a focus on Artificial Intelligence. 
+            I have developed a personal expenses tracker, an online grocery website, and a telecom churn prediction model using machine learning.
+          </p>
+        </div>
+        <div class="about__skills">
+          <h3>My Skills</h3>
+          <ul>
+            <li>Web Development</li>
+            <li>JavaScript, Node.js, React.js, Express</li>
+            <li>PHP, HTML, CSS</li>
+            <li>Python, Machine Learning</li>
+            <li>Data Analysis, SQL</li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
+
   <section id="projects" class="projects main-section">
     <div class="main-container">
-      <h2 class="heading-secondary projects__heading-secondary">
-        <span class="heading-secondary__sm"> Projects 🛠️</span>
-        <span class="heading-secondary__main">
-          Here you will find some of the projects that I created with the project details
-        </span>
+      <h2 class="heading-secondary">
+        <span class="heading-secondary__sm">Projects 🛠️</span>
+        <span class="heading-secondary__main">Here are some of the projects I have worked on.</span>
       </h2>
-      <div class="main-section__content">
-         <div class="projects__list-item">
-            <div class="projects__list-item-details">
-              <div class="projects__list-item-count">
-              <span class="projects__list-item-count-num"> 1 </span>
-              <span class="projects__list-item-count-line"> </span>
-              <span class="projects__list-item-count-end-dot"> </span>
-            </div>
-              <div class="projects__list-item-img-cont">
-                
-                <img src="./assets/dashboard.png" alt="Personall Expenses" class="projects__list-item-img" />
-              </div>
-              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
-                Personal Expenses Tracker
-              </h3>
-              <p class="text-primary projects__list-item-text-primary">
-                <span>
-                  One of my key projects is a personal expenses tracker that I developed using Node.js, 
-                  React.js, and Express. This web application allows users to efficiently track and manage 
-                  their expenses, providing them with a clear overview of their financial situation. T
-                  he platform features intuitive user interfaces and real-time data updates, making it easier for 
-                  users to stay on top of their finances. I integrated a secure authentication system and a robust database
-                  to ensure the privacy and reliability of user data.
-                </span>
-              </p>
-              <button class="btn btn-inv projects__btn-inv" onclick="window.location.href='https://github.com/yanlinnn15/ExpensesTracker';">
-                Code Link
-              </button>
-            </div>
-            <div class="projects__list-item-count">
-              <span class="projects__list-item-count-num"> 2 </span>
-              <span class="projects__list-item-count-line"> </span>
-              <span class="projects__list-item-count-end-dot"> </span>
-            </div>
+      <div class="projects__list">
+        <div class="projects__list-item">
+          <div class="projects__list-item-img-cont">
+            <img src="./assets/dashboard.png" alt="Personal Expenses Tracker" />
           </div>
+          <h3>Personal Expenses Tracker</h3>
+          <p>
+            This web application tracks user expenses using Node.js, React.js, and Express. It features intuitive interfaces, real-time updates, and secure authentication.
+          </p>
+          <button class="btn btn-inv" onclick="window.location.href='https://github.com/yanlinnn15/ExpensesTracker';">Code Link</button>
         </div>
 
-         <div class="projects__list-item projects__list-item--inv">
-            <div class="projects__list-item-details">
-              <div class="projects__list-item-img-cont">
-                <img src="./assets/mock.png" alt="Project Image" class="projects__list-item-img" />
-              </div>
-              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
-                Online Grocery Website
-              </h3>
-              <!-- <hr class="projects__title-text-divider" /> -->
-
-              <p class="text-primary projects__list-item-text-primary">
-                <span>
-                  An online grocery website built with PHP, HTML, CSS, and JavaScript lets 
-                  users browse products, add items to a cart, and make purchases. 
-                  PHP handles backend functions like user authentication and order processing, 
-                  while JavaScript manages dynamic interactions on the front end.
-                </span>
-              </p>
-              <button class="btn btn-inv projects__btn-inv" onclick="window.location.href='https://github.com/yanlinnn15/GroceryStore';">
-                Code Link
-              </button>
-            </div>
+        <div class="projects__list-item">
+          <div class="projects__list-item-img-cont">
+            <img src="./assets/mock.png" alt="Online Grocery Website" />
           </div>
+          <h3>Online Grocery Website</h3>
+          <p>
+            Built with PHP, HTML, CSS, and JavaScript, this website allows users to browse products, add items to a cart, and make purchases securely.
+          </p>
+          <button class="btn btn-inv" onclick="window.location.href='https://github.com/yanlinnn15/onlinegrocery';">Code Link</button>
         </div>
-        <div class="projects__list">
-          <div class="projects__list-item">
-            <div class="projects__list-item-count">
-              <span class="projects__list-item-count-num"> 3 </span>
-              <span class="projects__list-item-count-line"> </span>
-              <span class="projects__list-item-count-end-dot"> </span>
-            </div>
-            <div class="projects__list-item-details">
-              <div class="projects__list-item-img-cont">
-                <img src="./assets/churn.png" alt="Project Image" class="projects__list-item-img" />
-              </div>
-              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
-                Telecom Churn Prediction
-              </h3>
-              <!-- <hr class="projects__title-text-divider" /> -->
 
-              <p class="text-primary projects__list-item-text-primary">
-                <span>
-                  The telecom churn project involved building an ensemble model using CNN 
-                  and machine learning techniques to predict customer churn. By analyzing customer data, 
-                  the model identified patterns that indicated whether a customer was likely to churn (leave the service). 
-                  The ensemble approach combined the strengths of CNNs for feature extraction with traditional machine learning algorithms 
-                  to enhance predictive performance. The model was then evaluated using metrics like accuracy, 
-                  precision, recall, ensuring it could reliably predict customer churn.
-                </span>
-              </p>
-              <button class="btn btn-inv projects__btn-inv" onclick="window.location.href='https://github.com/yanlinnn15/churnprediction';">Code Link</button>
-            </div>
+        <div class="projects__list-item">
+          <div class="projects__list-item-img-cont">
+            <img src="./assets/churn.png" alt="Telecom Churn Prediction" />
           </div>
+          <h3>Telecom Churn Prediction</h3>
+          <p>
+            This project uses CNN and machine learning techniques to predict customer churn in telecom. The model identifies patterns to enhance predictive accuracy.
+          </p>
+          <button class="btn btn-inv" onclick="window.location.href='https://github.com/yanlinnn15/churnprediction';">Code Link</button>
         </div>
+      </div>
     </div>
   </section>
+
   <section id="contact" class="contact main-section">
     <div class="main-container">
       <h2 class="heading-secondary">
-        <span class="heading-secondary__sm"> Contact 📞</span>
-        <span class="heading-secondary__main">
-          Feel free to reach out to me via email or LinkedIn.
-        </span>
+        <span class="heading-secondary__sm">Contact 📞</span>
+        <span class="heading-secondary__main">Feel free to reach out to me via email or LinkedIn.</span>
       </h2>
-      <div class="main-section__content">
-        <div class="contact__info-cont">
-          <p class="text-primary about__text-primary">
-            <a href="mailto:yanlinnn155@gmail.com" class="btn btn-primary">Email: yanlinnn155@gmail.com</a>
-          </p>
-          <p class="text-primary about__text-primary">
-            <a href="https://www.linkedin.com/in/yan-lin-tan-524a05201/" target="_blank" class="btn btn-primary">LinkedIn</a>
-          </p>
-        </div>
+      <div class="contact__info">
+        <p>Email: <a href="mailto:yanlinnn155@gmail.com" class="btn btn-primary">yanlinnn155@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/yan-lin-tan-524a05201/" class="btn btn-primary" target="_blank">View LinkedIn</a></p>
       </div>
     </div>
   </section>
+
   <footer class="main-footer">
-    <div class="main-footer__upper">
-      <div class="main-container">
-        <ul class="main-footer__links">
-          <li class="main-footer__link">
-            <a href="./index.html">Home</a>
-          </li>
-          <li class="main-footer__link">
-            <a href="./index.html#about">About</a>
-          </li>
-          <li class="main-footer__link">
-            <a href="./index.html#projects">Projects</a>
-          </li>
-          <li class="main-footer__link">
-            <a href="./index.html#contact">Contact</a>
-          </li>
-        </ul>
-        <div class="main-footer__mid-line"></div>
-        <div class="main-footer__socials">
-          <a href="https://yanlinnn15.github.io/portfolio-yanlin/#" class="main-footer__social-link">
-            <img
-              src="https://d33wubrfki0l68.cloudfront.net/5557d5a11584d7201a38ee1a95200f57a4cc0f88/15085/assets/png/github-ico.png"
-              alt="" class="main-footer__social-link-icon" />
-          </a>
-          <a href="https://www.linkedin.com/in/yan-lin-tan-524a05201/" class="main-footer__social-link">
-            <img
-              src="https://d33wubrfki0l68.cloudfront.net/7f29579dde49e02480372aa49f7189c5536b0118/34b92/assets/png/linkedin-ico.png"
-              alt="" class="main-footer__social-link-icon" />
-          </a>
-        </div>
-      </div>
+    <div class="main-footer__links">
+      <a href="#home-hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
     </div>
   </footer>
-  <script src="./script.js"></script>
+
 </body>
 
 </html>
