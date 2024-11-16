@@ -62,7 +62,7 @@
         <h1 class="heading-primary home-hero__heading-primary">
           <span class="heading-primary__sm"> Hello 👋</span>
           <span class="heading-primary__main">
-            I'm Tan Yan Lin! A Data Enthusiast and Developer.
+            I'm Tan Yan Lin! A Developer and Data Enthusiast.
           </span>
         </h1>
         <button class="btn btn-theme home-hero__btn-theme" onclick="location.href='./index.html#projects';">Projects</button>
@@ -86,17 +86,20 @@
             <p class="text-primary about__text-primary">
               <span>
                 Hello! I'm a recent graduate from Multimedia University, 
-                specialising in the field of Computer Science in Artificial Intelligence. 
-                After my academic journey I’m confident in my knowledge and skills on machine learning, 
-                data analysis, and web development, 
-                which had cultivated a passion for applying my skills into the real world.
+                specializing in Computer Science. With a focus on Artificial Intelligence, 
+                I have gained comprehensive knowledge in web development, machine learning, and data analysis. 
+                My academic foundation, combined with hands-on project experience, has equipped me to solve 
+                complex challenges and build impactful solutions in the IT field.
               </span>
               <span>
-                My hands-on experience includes working on projects spanning predictive analytics, 
-                natural language processing, and computer vision. 
-                I thrive in collaborative environments and am eager to contribute 
-                my skills to cutting-edge AI initiatives.
+                I have developed a personal expenses tracker using Node.js, 
+                React.js, and Express, and created an online grocery website with PHP, 
+                HTML, CSS, and JavaScript. Additionally, I have worked on a customer 
+                churn prediction model, applying machine learning techniques to analyze
+                data and drive insights. I am passionate about leveraging my technical 
+                skills to contribute to innovative projects across various IT domains.
               </span>
+
             </p>
             <button class="btn btn-theme about__btn-theme">Projects</button>
           </div>
@@ -104,14 +107,20 @@
             <h3 class="heading-quaternary about__heading-quaternary">
               My Skills
             </h3>
-            <ul class="about__skills">
-              <li class="about__skill">python</li>
-              <li class="about__skill">machine learning</li>
-              <li class="about__skill">data analysis</li>
-              <li class="about__skill">php</li>
-              <li class="about__skill">html</li>
-              <li class="about__skill">css</li>
-              <li class="about__skill">javascript</li>
+           <ul class="about__skills">
+              <li class="about__skill">Web Development</li>
+              <li class="about__skill">JavaScript</li>
+              <li class="about__skill">Node.js</li>
+              <li class="about__skill">React.js</li>
+              <li class="about__skill">Express</li>
+              <li class="about__skill">PHP</li>
+              <li class="about__skill">SQL</li>
+              <li class="about__skill">HTML</li>
+              <li class="about__skill">CSS</li>
+              <li class="about__skill">Python</li>
+              <li class="about__skill">Machine Learning</li>
+              <li class="about__skill">Data Analysis</li>
+              <li class="about__skill">Machine Learning Model</li>
             </ul>
           </div>
         </div>
@@ -127,10 +136,70 @@
         </span>
       </h2>
       <div class="main-section__content">
+         <div class="projects__list-item">
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 1 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+              <div class="projects__list-item-img-cont">
+                
+                <img src="./assets/dashboard.png" alt="Personall Expenses" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Personal Expenses Tracker
+              </h3>
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  One of my key projects is a personal expenses tracker that I developed using Node.js, 
+                  React.js, and Express. This web application allows users to efficiently track and manage 
+                  their expenses, providing them with a clear overview of their financial situation. T
+                  he platform features intuitive user interfaces and real-time data updates, making it easier for 
+                  users to stay on top of their finances. I integrated a secure authentication system and a robust database
+                  to ensure the privacy and reliability of user data.
+                </span>
+              </p>
+              <button class="btn btn-inv projects__btn-inv" onclick="window.location.href='https://github.com/yanlinnn15/ExpensesTracker';">
+                Code Link
+              </button>
+            </div>
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 2 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+          </div>
+        </div>
+
+         <div class="projects__list-item projects__list-item--inv">
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./assets/mock.png" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Online Grocery Website
+              </h3>
+              <!-- <hr class="projects__title-text-divider" /> -->
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  An online grocery website built with PHP, HTML, CSS, and JavaScript lets 
+                  users browse products, add items to a cart, and make purchases. 
+                  PHP handles backend functions like user authentication and order processing, 
+                  while JavaScript manages dynamic interactions on the front end.
+                </span>
+              </p>
+              <button class="btn btn-inv projects__btn-inv" onclick="window.location.href='https://github.com/yanlinnn15/GroceryStore';">
+                Code Link
+              </button>
+            </div>
+          </div>
+        </div>
         <div class="projects__list">
           <div class="projects__list-item">
             <div class="projects__list-item-count">
-              <span class="projects__list-item-count-num"> 1 </span>
+              <span class="projects__list-item-count-num"> 3 </span>
               <span class="projects__list-item-count-line"> </span>
               <span class="projects__list-item-count-end-dot"> </span>
             </div>
@@ -156,86 +225,7 @@
               <button class="btn btn-inv projects__btn-inv" onclick="window.location.href='https://github.com/yanlinnn15/churnprediction';">Code Link</button>
             </div>
           </div>
-          <div class="projects__list-item projects__list-item--inv">
-            <div class="projects__list-item-details">
-              <div class="projects__list-item-img-cont">
-                <img src="./assets/mock.png" alt="Project Image" class="projects__list-item-img" />
-              </div>
-              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
-                Q&A Chatbot
-              </h3>
-              <!-- <hr class="projects__title-text-divider" /> -->
-
-              <p class="text-primary projects__list-item-text-primary">
-                <span>
-                  The Q&A Chatbot using LLaMA 3.1 processes user queries and generates accurate responses. 
-                  It captures input (text or voice), uses LLaMA 3.1 to understand the question, 
-                  and provides relevant answers based on its advanced language capabilities. 
-                  This setup enables real-time, context-aware interaction for a smooth user experience.
-                </span>
-              </p>
-              <button class="btn btn-inv projects__btn-inv" onclick="window.location.href='https://github.com/yanlinnn15/v2t';">Code Link</button>
-            </div>
-            <div class="projects__list-item-count">
-              <span class="projects__list-item-count-num"> 2 </span>
-              <span class="projects__list-item-count-line"> </span>
-              <span class="projects__list-item-count-end-dot"> </span>
-            </div>
-          </div>
-          <div class="projects__list-item">
-            <div class="projects__list-item-count">
-              <span class="projects__list-item-count-num"> 3 </span>
-              <span class="projects__list-item-count-line"> </span>
-              <span class="projects__list-item-count-end-dot"> </span>
-            </div>
-            <div class="projects__list-item-details">
-              <div class="projects__list-item-img-cont">
-                <img src="./assets/mock.png" alt="Project Image" class="projects__list-item-img" />
-              </div>
-              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
-                FastFood Brand Recognition Model
-              </h3>
-              <!-- <hr class="projects__title-text-divider" /> -->
-
-              <p class="text-primary projects__list-item-text-primary">
-                <span>
-                  A simple fast food brand recognition system using Linear Discriminant Analysis (LDA) 
-                  for dimensionality reduction and K-Nearest Neighbors (KNN) for classification.
-                </span>
-              </p>
-              <button class="btn btn-inv projects__btn-inv" onclick="window.location.href='https://github.com/yanlinnn15/FastFoodRecognition';">Code Link</button>
-            </div>
-          </div>
-          <div class="projects__list-item projects__list-item--inv">
-            <div class="projects__list-item-details">
-              <div class="projects__list-item-img-cont">
-                <img src="./assets/mock.png" alt="Project Image" class="projects__list-item-img" />
-              </div>
-              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
-                Online Grocery Website
-              </h3>
-              <!-- <hr class="projects__title-text-divider" /> -->
-
-              <p class="text-primary projects__list-item-text-primary">
-                <span>
-                  An online grocery website built with PHP, HTML, CSS, and JavaScript lets 
-                  users browse products, add items to a cart, and make purchases. 
-                  PHP handles backend functions like user authentication and order processing, 
-                  while JavaScript manages dynamic interactions on the front end.
-                </span>
-              </p>
-              <button class="btn btn-inv projects__btn-inv" onclick="window.location.href='https://github.com/yanlinnn15/GroceryStore';">
-                Code Link
-              </button>
-            </div>
-            <div class="projects__list-item-count">
-              <span class="projects__list-item-count-num"> 4 </span>
-              <span class="projects__list-item-count-line"> </span>
-              <span class="projects__list-item-count-end-dot"> </span>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
   </section>
   <section id="contact" class="contact main-section">
